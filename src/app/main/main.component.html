@@ -1,0 +1,35 @@
+<h5 style="cursor: pointer;" class="p-2" (click)="back()">Back</h5>
+<form class="mt-2 container" [formGroup]="userform" (ngSubmit)="submit()">
+
+
+  <h3 class="form-group">ADD STUDENT INFORMATION</h3>
+ <div class="divi">
+  <div class="form-group col-md-4">
+    <label for="exampleInputPassword1">First Name</label>
+    <input type="text" ree class="form-control" id="exampleInputPassword1" placeholder="Enter your First Name" name="firstname" formControlName="firstname">
+  </div>
+
+  <div class="form-group col-md-4">
+    <label for="exampleInputPassword1">Last Name</label>
+    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your Last Name" name="lastname" formControlName="lastname">
+  </div>
+
+  <div class="form-group col-md-4 ">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="Enter email" formControlName="email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+
+  <div class="form-group col-md-4">
+    <label for="exampleInputPassword1">Mobile Number</label>
+    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your mobile number" name="mobile" formControlName="mobile">
+  </div>
+
+  <div class="form-group col-md-4">
+    <label for="exampleInputPassword1">Semester</label>
+    <input type="number" class="form-control" name="semester" formControlName="semester" id="exampleInputPassword1" placeholder="Enter your Semester" >
+  </div>
+
+  <button type="submit" class="btn btn-primary"  >Save Information</button>
+ </div>
+</form>

@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "login",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

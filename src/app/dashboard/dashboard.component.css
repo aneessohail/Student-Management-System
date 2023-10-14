@@ -1,0 +1,21 @@
+.division{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  background-color: #1827f5;
+  color: white;
+  border-radius: 10px;
+
+}
+.red{
+  background-color: #fc2e2e;
+  color: white;
+}
+
+.blue{
+  background-color: #00f9cb;
+  color: rgb(255, 255, 255);
+}

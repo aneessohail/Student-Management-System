@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "login-4fcf7": {
+      "hosting": {
+        "login": [
+          "login-4fcf7"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "login-4fcf7"
+  }
+}
